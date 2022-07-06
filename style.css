@@ -1,7 +1,3 @@
-/* font-family: 'Inter', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Manrope', sans-serif;
-font-family: 'Poppins', sans-serif; */
 * {
   margin: 0px;
   padding: 0px;
@@ -21,9 +17,8 @@ section {
 .banner-overlay {
   width: 100%;
   height: 100vh;
-  box-sizing: border-box;
-  /* background: linear-gradient(360deg, #08072b 0%, rgba(18, 18, 18, 0) 100%); */
   background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  box-sizing: border-box;
   border: 1px solid #000000;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -78,8 +73,6 @@ section {
 /* donate section  */
 .donate-area {
   width: 100%;
-  /* height: 100vh; */
-  /* margin: 130px 0px; */
 }
 /* title font style  for global use*/
 .title {
@@ -189,7 +182,7 @@ input[type='number']::-webkit-inner-spin-button {
   font-weight: 400;
   line-height: 24px;
   margin: 10px 0px;
-  text-align: center;
+  /* text-align: center; */
 }
 #plan-one {
   background: rgba(79, 157, 166, 0.1);
@@ -204,7 +197,6 @@ input[type='number']::-webkit-inner-spin-button {
 .contributions-area {
   width: 100%;
   height: 100vh;
-  box-sizing: border-box;
   background-image: url(images/donation5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,7 +204,6 @@ input[type='number']::-webkit-inner-spin-button {
 .contribution-overlay {
   width: 100%;
   height: 100vh;
-  box-sizing: border-box;
   background: linear-gradient(
     360deg,
     #ffffff 0%,
@@ -257,6 +248,9 @@ input[type='number']::-webkit-inner-spin-button {
 #three {
   background-color: #e3fcff;
 }
+.contribution-item .small-description {
+  text-align: center;
+}
 .img-wrap .icon {
   width: 50px;
   height: 50px;
@@ -292,4 +286,32 @@ input[type='number']::-webkit-inner-spin-button {
 #form-button {
   height: 47px;
   border-radius: 0px 5px 5px 0px;
+}
+
+/* footer area */
+footer {
+  width: 100%;
+  height: 177px;
+  background: #0b0d17;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  color: #ff5959;
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+}
+.footer-text {
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+  margin: 10px 0px;
 }
