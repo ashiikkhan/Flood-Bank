@@ -6,6 +6,9 @@ font-family: 'Poppins', sans-serif; */
   margin: 0px;
   padding: 0px;
 }
+section {
+  margin-bottom: 130px;
+}
 /* banner section  */
 .banner {
   width: 100%;
@@ -72,11 +75,11 @@ font-family: 'Poppins', sans-serif; */
 .main-section {
   width: 100%;
 }
-/* donate container  */
-.donate-container {
+/* donate section  */
+.donate-area {
   width: 100%;
-  height: 100vh;
-  margin: 130px 0px;
+  /* height: 100vh; */
+  /* margin: 130px 0px; */
 }
 /* title font style  for global use*/
 .title {
@@ -149,3 +152,49 @@ input[type='number']::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0px;
 }
+/* plan section */
+.plan-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plan-item {
+  width: 360px;
+  height: 253px;
+  border: 5px;
+  padding: 60px 20px 30px 20px;
+  margin: 50px 6px 0px 6px;
+}
+.plan-item img {
+  width: 53px;
+  height: 53px;
+  color: #121212;
+  margin: 10px 0px;
+}
+.plan-item h3 {
+  color: #121212;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin: 10px 0px;
+}
+.plan-item p {
+  color: #707070;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px 0px;
+}
+#plan-one {
+  background: rgba(79, 157, 166, 0.1);
+}
+#plan-two {
+  background: rgba(255, 89, 89, 0.1);
+}
+#plan-three {
+  background: #fff4d6;
+}
+/*  */
